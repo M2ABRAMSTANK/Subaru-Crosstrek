@@ -163,7 +163,7 @@
   ]},
 { "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "1116"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
-    {"id": "CROSSTREK_FINAL_INJECTION_AMOUNT_MM_ST_", "path": "ECU", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Final injection amount"}
+    {"id": "CROSSTREK_FINAL_INJECTION_AMOUNT_MM_ST", "path": "ECU", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Final injection amount"}
   ]},
 { "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "1118"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
@@ -179,7 +179,7 @@
   ]},
 { "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "111F"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
-    {"id": "CROSSTREK_INLET_AIR_T_AFTER_AIR_FILTER_", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Inlet air temperature (after air filter)"}
+    {"id": "CROSSTREK_INLET_AIR_T_AFTER_AIR_FILTER", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Inlet air temperature, post-filter"}
   ]},
 { "hdr": "7A2", "rax": "7AA", "cmd": {"22": "1121"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
@@ -771,7 +771,7 @@
   ]},
 { "hdr": "7E7", "rax": "7EF", "dbg": true, "cmd": {"22": "2061"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
-    {"id": "CROSSTREK_ENGINE_TORQUE_UPPER_ECM_", "path": "ECU", "fmt": { "len": 8, "max": 408, "mul": 408, "div": 255, "unit": "newtonMeters" }, "name": "Engine torque upper"}
+    {"id": "CROSSTREK_ENGINE_TORQUE_UPPER_ECM", "path": "ECU", "fmt": { "len": 8, "max": 408, "mul": 408, "div": 255, "unit": "newtonMeters" }, "name": "Engine torque upper"}
   ]},
 { "hdr": "7E7", "rax": "7EF", "dbg": true, "cmd": {"22": "2062"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
