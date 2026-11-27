@@ -13,6 +13,10 @@
   "signals": [
     {"id": "CROSSTREK_DBG_711_F100_B0", "path": "ECU.Research.R38", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "Raw 711/22F100 byte 0"}
   ]},
+{ "hdr": "711", "rax": "719", "fcm1": true, "dbg": true, "cmd": {"22": "F182"}, "freq": 120, "filter": { "years": [2014] },
+  "signals": [
+    {"id": "CROSSTREK_PROBE_711_22F182_B0", "path": "ECU.Research.Expanded", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "Raw 711/22F182 byte 0"}
+  ]},
 { "hdr": "711", "rax": "719", "dbg": true, "cmd": {"22": "FF00"}, "freq": 30, "filter": { "years": [2014] },
   "signals": [
     {"id": "CROSSTREK_DBG_711_FF00_B0", "path": "ECU.Research.R38", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "Raw 711/22FF00 byte 0"}
@@ -25,6 +29,14 @@
   "signals": [
     {"id": "CROSSTREK_DBG_715_F100_B0", "path": "ECU.Research.R38", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "Raw 715/22F100 byte 0"}
   ]},
+{ "hdr": "715", "rax": "71D", "fcm1": true, "dbg": true, "cmd": {"22": "F182"}, "freq": 120, "filter": { "years": [2014] },
+  "signals": [
+    {"id": "CROSSTREK_PROBE_715_22F182_B0", "path": "ECU.Research.Expanded", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "Raw 715/22F182 byte 0"}
+  ]},
+{ "hdr": "715", "rax": "71D", "dbg": true, "cmd": {"22": "FF00"}, "freq": 120, "filter": { "years": [2014] },
+  "signals": [
+    {"id": "CROSSTREK_PROBE_715_22FF00_B0", "path": "ECU.Research.Expanded", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "Raw 715/22FF00 byte 0"}
+  ]},
 { "hdr": "730", "rax": "738", "dbg": true, "cmd": {"22": "0204"}, "freq": 30, "filter": { "years": [2014] },
   "signals": [
     {"id": "CROSSTREK_DBG_730_0204_B0", "path": "ECU.Research.R38", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "Raw 730/220204 byte 0"}
@@ -33,9 +45,33 @@
   "signals": [
     {"id": "CROSSTREK_DBG_730_F100_B0", "path": "ECU.Research.R38", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "Raw 730/22F100 byte 0"}
   ]},
+{ "hdr": "730", "rax": "738", "fcm1": true, "dbg": true, "cmd": {"22": "F182"}, "freq": 120, "filter": { "years": [2014] },
+  "signals": [
+    {"id": "CROSSTREK_PROBE_730_22F182_B0", "path": "ECU.Research.Expanded", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "Raw 730/22F182 byte 0"}
+  ]},
 { "hdr": "730", "rax": "738", "dbg": true, "cmd": {"22": "FF00"}, "freq": 30, "filter": { "years": [2014] },
   "signals": [
     {"id": "CROSSTREK_DBG_730_FF00_B0", "path": "ECU.Research.R38", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "Raw 730/22FF00 byte 0"}
+  ]},
+{ "hdr": "746", "rax": "74E", "dbg": true, "cmd": {"22": "1032"}, "freq": 120, "filter": { "years": [2014] },
+  "signals": [
+    {"id": "CROSSTREK_PROBE_746_221032_B0", "path": "ECU.Research.Expanded", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "Raw 746/221032 byte 0"}
+  ]},
+{ "hdr": "746", "rax": "74E", "dbg": true, "cmd": {"22": "F182"}, "freq": 120, "filter": { "years": [2014] },
+  "signals": [
+    {"id": "CROSSTREK_PROBE_746_22F182_B0", "path": "ECU.Research.Expanded", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "Raw 746/22F182 byte 0"}
+  ]},
+{ "hdr": "750", "rax": "758", "eax": "2A", "fcm1": true, "dbg": true, "cmd": {"21": "15"}, "freq": 120, "filter": { "years": [2014] },
+  "signals": [
+    {"id": "CROSSTREK_PROBE_750_2115_B0", "path": "ECU.Research.Expanded", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "Raw 750/2115 byte 0"}
+  ]},
+{ "hdr": "750", "rax": "758", "eax": "2A", "tst": "2A", "tmo": "96", "fcm1": true, "dbg": true, "cmd": {"21": "16"}, "freq": 120, "filter": { "years": [2014] },
+  "signals": [
+    {"id": "CROSSTREK_PROBE_750_2116_B0", "path": "ECU.Research.Expanded", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "Raw 750/2116 byte 0"}
+  ]},
+{ "hdr": "750", "rax": "758", "eax": "2A", "fcm1": true, "dbg": true, "cmd": {"21": "30"}, "freq": 120, "filter": { "years": [2014] },
+  "signals": [
+    {"id": "CROSSTREK_PROBE_750_2130_B0", "path": "ECU.Research.Expanded", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "Raw 750/2130 byte 0"}
   ]},
 { "hdr": "753", "rax": "75B", "tmo": "64", "fcm1": true, "cmd": {"22": "1022"}, "freq": 15, "dbgfilter": { "years": [2015, 2016], "from": 2027 },
   "signals": [
@@ -59,6 +95,10 @@
   "signals": [
     {"id": "CROSSTREK_DBG_764_F100_B0", "path": "ECU.Research.R38", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "Raw 764/22F100 byte 0"}
   ]},
+{ "hdr": "764", "rax": "76C", "fcm1": true, "dbg": true, "cmd": {"22": "F182"}, "freq": 120, "filter": { "years": [2014] },
+  "signals": [
+    {"id": "CROSSTREK_PROBE_764_22F182_B0", "path": "ECU.Research.Expanded", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "Raw 764/22F182 byte 0"}
+  ]},
 { "hdr": "764", "rax": "76C", "dbg": true, "cmd": {"22": "FF00"}, "freq": 30, "filter": { "years": [2014] },
   "signals": [
     {"id": "CROSSTREK_DBG_764_FF00_B0", "path": "ECU.Research.R38", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "Raw 764/22FF00 byte 0"}
@@ -70,6 +110,10 @@
 { "hdr": "784", "rax": "78C", "dbg": true, "cmd": {"22": "F100"}, "freq": 30, "filter": { "years": [2014] },
   "signals": [
     {"id": "CROSSTREK_DBG_784_F100_B0", "path": "ECU.Research.R38", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "Raw 784/22F100 byte 0"}
+  ]},
+{ "hdr": "784", "rax": "78C", "fcm1": true, "dbg": true, "cmd": {"22": "F182"}, "freq": 120, "filter": { "years": [2014] },
+  "signals": [
+    {"id": "CROSSTREK_PROBE_784_22F182_B0", "path": "ECU.Research.Expanded", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "Raw 784/22F182 byte 0"}
   ]},
 { "hdr": "784", "rax": "78C", "dbg": true, "cmd": {"22": "FF00"}, "freq": 30, "filter": { "years": [2014] },
   "signals": [
@@ -83,6 +127,14 @@
   "signals": [
     {"id": "CROSSTREK_DBG_7A0_F100_B0", "path": "ECU.Research.R38", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "Raw 7A0/22F100 byte 0"}
   ]},
+{ "hdr": "7A0", "rax": "7A8", "dbg": true, "cmd": {"22": "F182"}, "freq": 120, "filter": { "years": [2014] },
+  "signals": [
+    {"id": "CROSSTREK_PROBE_7A0_22F182_B0", "path": "ECU.Research.Expanded", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "Raw 7A0/22F182 byte 0"}
+  ]},
+{ "hdr": "7A0", "rax": "7A8", "dbg": true, "cmd": {"22": "FF00"}, "freq": 120, "filter": { "years": [2014] },
+  "signals": [
+    {"id": "CROSSTREK_PROBE_7A0_22FF00_B0", "path": "ECU.Research.Expanded", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "Raw 7A0/22FF00 byte 0"}
+  ]},
 { "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "0005"}, "freq": 5,
   "signals": [
     {"id": "CROSSTREK_ECT", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Coolant temperature"}
@@ -90,6 +142,10 @@
 { "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "0023"}, "freq": 1,
   "signals": [
     {"id": "CROSSTREK_FRP", "path": "Fuel", "fmt": { "len": 16, "max": 655350, "mul": 10, "unit": "kilopascal" }, "name": "Fuel rail pressure"}
+  ]},
+{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "002F"}, "freq": 120, "filter": { "years": [2014] },
+  "signals": [
+    {"id": "CROSSTREK_PROBE_7A2_22002F_B0", "path": "ECU.Research.Expanded", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "Raw 7A2/22002F byte 0"}
   ]},
 { "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "003C"}, "freq": 5,
   "signals": [
@@ -186,6 +242,10 @@
 { "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "10E6"}, "freq": 1,
   "signals": [
     {"id": "CROSSTREK_FUEL_TANK_AIR_PRESSURE", "path": "Fuel", "fmt": { "len": 16, "max": 655, "div": 100, "unit": "unknown" }, "name": "Fuel tank air pressure"}
+  ]},
+{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "10E7"}, "freq": 120, "filter": { "years": [2014] },
+  "signals": [
+    {"id": "CROSSTREK_PROBE_7A2_2210E7_B0", "path": "ECU.Research.Expanded", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "Raw 7A2/2210E7 byte 0"}
   ]},
 { "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "10E8"}, "freq": 1,
   "signals": [
@@ -431,6 +491,14 @@
   "signals": [
     {"id": "CROSSTREK_INLET_AIR_T", "path": "Engine", "fmt": { "len": 8, "max": 300, "min": -30, "mul": 1.8, "add": -40, "unit": "fahrenheit" }, "name": "Inlet air temperature"}
   ]},
+{ "hdr": "7A2", "rax": "7AA", "fcm1": true, "dbg": true, "cmd": {"22": "F182"}, "freq": 120, "filter": { "years": [2014] },
+  "signals": [
+    {"id": "CROSSTREK_PROBE_7A2_22F182_B0", "path": "ECU.Research.Expanded", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "Raw 7A2/22F182 byte 0"}
+  ]},
+{ "hdr": "7A3", "rax": "7AB", "dbg": true, "cmd": {"22": "1017"}, "freq": 120, "filter": { "years": [2014] },
+  "signals": [
+    {"id": "CROSSTREK_PROBE_7A3_221017_B0", "path": "ECU.Research.Expanded", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "Raw 7A3/221017 byte 0"}
+  ]},
 { "hdr": "7A3", "rax": "7AB", "cmd": {"22": "10C8"}, "freq": 1, "filter": { "from": 2024 }, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "CROSSTREK_LOCK_UP_DUTY_RATIO", "path": "ECU", "fmt": { "len": 8, "max": 127.5, "mul": 0.5, "unit": "percent" }, "name": "Lock up duty ratio"}
@@ -499,6 +567,10 @@
   "signals": [
     {"id": "CROSSTREK_AWD_SOLENOID_ACTUAL_CURRENT", "path": "ECU", "fmt": { "len": 16, "max": 65535, "unit": "milliamps" }, "name": "All-wheel drive solenoid actual current"}
   ]},
+{ "hdr": "7A3", "rax": "7AB", "fcm1": true, "dbg": true, "cmd": {"22": "F182"}, "freq": 120, "filter": { "years": [2014] },
+  "signals": [
+    {"id": "CROSSTREK_PROBE_7A3_22F182_B0", "path": "ECU.Research.Expanded", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "Raw 7A3/22F182 byte 0"}
+  ]},
 { "hdr": "7B0", "rax": "7B8", "dbg": true, "cmd": {"21": "03"}, "freq": 0.25,
   "signals": [
     {"id": "CROSSTREK_TIRE_RL_SPD", "path": "Movement", "fmt": {           "len": 8, "max": 326.4, "mul": 256, "div": 200, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"},
@@ -533,6 +605,18 @@
   "signals": [
     {"id": "CROSSTREK_STEER_ANGLE", "path": "Control", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "degrees" }, "name": "Steering wheel angle"}
   ]},
+{ "hdr": "7B0", "rax": "7B8", "fcm1": true, "dbg": true, "cmd": {"22": "F182"}, "freq": 120, "filter": { "years": [2014] },
+  "signals": [
+    {"id": "CROSSTREK_PROBE_7B0_22F182_B0", "path": "ECU.Research.Expanded", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "Raw 7B0/22F182 byte 0"}
+  ]},
+{ "hdr": "7C0", "rax": "7C8", "dbg": true, "cmd": {"21": "29"}, "freq": 120, "filter": { "years": [2014] },
+  "signals": [
+    {"id": "CROSSTREK_PROBE_7C0_2129_B0", "path": "ECU.Research.Expanded", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "Raw 7C0/2129 byte 0"}
+  ]},
+{ "hdr": "7C0", "rax": "7C8", "dbg": true, "cmd": {"21": "A7"}, "freq": 120, "filter": { "years": [2014] },
+  "signals": [
+    {"id": "CROSSTREK_PROBE_7C0_21A7_B0", "path": "ECU.Research.Expanded", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "Raw 7C0/21A7 byte 0"}
+  ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "01"}, "freq": 5,
   "signals": [
     {"id": "CROSSTREK_EOT", "path": "Engine", "fmt": {"bix": 224, "len": 8, "max": 215, "add": -40, "unit": "celsius" }, "name": "Engine oil temperature", "suggestedMetric": "engineOilTemperature"}
@@ -559,9 +643,45 @@
   "signals": [
     {"id": "CROSSTREK_TRIP_CNT", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Trip counter"}
   ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1020"}, "freq": 60, "filter": { "years": [2014] },
+  "signals": [
+    {"id": "CROSSTREK_PROBE_7E0_221020_B0", "path": "ECU.Research.Expanded", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "Raw 7E0/221020 byte 0"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1021"}, "freq": 60, "filter": { "years": [2014] },
+  "signals": [
+    {"id": "CROSSTREK_PROBE_7E0_221021_B0", "path": "ECU.Research.Expanded", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "Raw 7E0/221021 byte 0"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1022"}, "freq": 60, "filter": { "years": [2014] },
+  "signals": [
+    {"id": "CROSSTREK_PROBE_7E0_221022_B0", "path": "ECU.Research.Expanded", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "Raw 7E0/221022 byte 0"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1023"}, "freq": 60, "filter": { "years": [2014] },
+  "signals": [
+    {"id": "CROSSTREK_PROBE_7E0_221023_B0", "path": "ECU.Research.Expanded", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "Raw 7E0/221023 byte 0"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1026"}, "freq": 60, "filter": { "years": [2014] },
+  "signals": [
+    {"id": "CROSSTREK_PROBE_7E0_221026_B0", "path": "ECU.Research.Expanded", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "Raw 7E0/221026 byte 0"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "105F"}, "freq": 60, "filter": { "years": [2014] },
+  "signals": [
+    {"id": "CROSSTREK_PROBE_7E0_22105F_B0", "path": "ECU.Research.Expanded", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "Raw 7E0/22105F byte 0"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "108F"}, "freq": 60, "filter": { "years": [2014] },
+  "signals": [
+    {"id": "CROSSTREK_PROBE_7E0_22108F_B0", "path": "ECU.Research.Expanded", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "Raw 7E0/22108F byte 0"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1093"}, "freq": 60, "filter": { "years": [2014] },
+  "signals": [
+    {"id": "CROSSTREK_PROBE_7E0_221093_B0", "path": "ECU.Research.Expanded", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "Raw 7E0/221093 byte 0"}
+  ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1099"}, "freq": 30, "filter": { "years": [2014] },
   "signals": [
     {"id": "CROSSTREK_DBG_7E0_1099_B0", "path": "ECU.Research.R38", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "Raw 7E0/221099 byte 0"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "109B"}, "freq": 60, "filter": { "years": [2014] },
+  "signals": [
+    {"id": "CROSSTREK_PROBE_7E0_22109B_B0", "path": "ECU.Research.Expanded", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "Raw 7E0/22109B byte 0"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "10A3"}, "freq": 1, "dbgfilter": { "to": 2014, "from": 2016 },
   "signals": [
@@ -579,9 +699,73 @@
   "signals": [
     {"id": "CROSSTREK_TUMBLE_GEN_VLV_POS_SENS", "path": "Engine", "fmt": { "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "Tumble generator valve position sensor left"}
   ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "10B1"}, "freq": 60, "filter": { "years": [2014] },
+  "signals": [
+    {"id": "CROSSTREK_PROBE_7E0_2210B1_B0", "path": "ECU.Research.Expanded", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "Raw 7E0/2210B1 byte 0"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "10B2"}, "freq": 60, "filter": { "years": [2014] },
+  "signals": [
+    {"id": "CROSSTREK_PROBE_7E0_2210B2_B0", "path": "ECU.Research.Expanded", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "Raw 7E0/2210B2 byte 0"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "10B3"}, "freq": 60, "filter": { "years": [2014] },
+  "signals": [
+    {"id": "CROSSTREK_PROBE_7E0_2210B3_B0", "path": "ECU.Research.Expanded", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "Raw 7E0/2210B3 byte 0"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "10B8"}, "freq": 60, "filter": { "years": [2014] },
+  "signals": [
+    {"id": "CROSSTREK_PROBE_7E0_2210B8_B0", "path": "ECU.Research.Expanded", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "Raw 7E0/2210B8 byte 0"}
+  ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "10B9"}, "freq": 30, "filter": { "years": [2014] },
   "signals": [
     {"id": "CROSSTREK_DBG_7E0_10B9_B0", "path": "ECU.Research.R38", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "Raw 7E0/2210B9 byte 0"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "10BA"}, "freq": 60, "filter": { "years": [2014] },
+  "signals": [
+    {"id": "CROSSTREK_PROBE_7E0_2210BA_B0", "path": "ECU.Research.Expanded", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "Raw 7E0/2210BA byte 0"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "10BB"}, "freq": 60, "filter": { "years": [2014] },
+  "signals": [
+    {"id": "CROSSTREK_PROBE_7E0_2210BB_B0", "path": "ECU.Research.Expanded", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "Raw 7E0/2210BB byte 0"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "10C5"}, "freq": 60, "filter": { "years": [2014] },
+  "signals": [
+    {"id": "CROSSTREK_PROBE_7E0_2210C5_B0", "path": "ECU.Research.Expanded", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "Raw 7E0/2210C5 byte 0"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "10CA"}, "freq": 60, "filter": { "years": [2014] },
+  "signals": [
+    {"id": "CROSSTREK_PROBE_7E0_2210CA_B0", "path": "ECU.Research.Expanded", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "Raw 7E0/2210CA byte 0"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "10CB"}, "freq": 60, "filter": { "years": [2014] },
+  "signals": [
+    {"id": "CROSSTREK_PROBE_7E0_2210CB_B0", "path": "ECU.Research.Expanded", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "Raw 7E0/2210CB byte 0"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "10CC"}, "freq": 60, "filter": { "years": [2014] },
+  "signals": [
+    {"id": "CROSSTREK_PROBE_7E0_2210CC_B0", "path": "ECU.Research.Expanded", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "Raw 7E0/2210CC byte 0"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "10CE"}, "freq": 60, "filter": { "years": [2014] },
+  "signals": [
+    {"id": "CROSSTREK_PROBE_7E0_2210CE_B0", "path": "ECU.Research.Expanded", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "Raw 7E0/2210CE byte 0"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "10CF"}, "freq": 60, "filter": { "years": [2014] },
+  "signals": [
+    {"id": "CROSSTREK_PROBE_7E0_2210CF_B0", "path": "ECU.Research.Expanded", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "Raw 7E0/2210CF byte 0"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "10D0"}, "freq": 60, "filter": { "years": [2014] },
+  "signals": [
+    {"id": "CROSSTREK_PROBE_7E0_2210D0_B0", "path": "ECU.Research.Expanded", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "Raw 7E0/2210D0 byte 0"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "10D1"}, "freq": 60, "filter": { "years": [2014] },
+  "signals": [
+    {"id": "CROSSTREK_PROBE_7E0_2210D1_B0", "path": "ECU.Research.Expanded", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "Raw 7E0/2210D1 byte 0"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "10D3"}, "freq": 60, "filter": { "years": [2014] },
+  "signals": [
+    {"id": "CROSSTREK_PROBE_7E0_2210D3_B0", "path": "ECU.Research.Expanded", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "Raw 7E0/2210D3 byte 0"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "10E3"}, "freq": 60, "filter": { "years": [2014] },
+  "signals": [
+    {"id": "CROSSTREK_PROBE_7E0_2210E3_B0", "path": "ECU.Research.Expanded", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "Raw 7E0/2210E3 byte 0"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "tmo": "64", "fcm1": true, "cmd": {"22": "10E5"}, "freq": 15, "dbgfilter": { "to": 2014, "years": [2016], "from": 2026 },
   "signals": [
@@ -598,6 +782,18 @@
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "10ED"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2020], "from": 2025 },
   "signals": [
     {"id": "CROSSTREK_EXH_VVT_RETARD_ANG_LEFT", "path": "Engine", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "degrees" }, "name": "Exhaust VVT retard angle left"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "10EF"}, "freq": 60, "filter": { "years": [2014] },
+  "signals": [
+    {"id": "CROSSTREK_PROBE_7E0_2210EF_B0", "path": "ECU.Research.Expanded", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "Raw 7E0/2210EF byte 0"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1113"}, "freq": 60, "filter": { "years": [2014] },
+  "signals": [
+    {"id": "CROSSTREK_PROBE_7E0_221113_B0", "path": "ECU.Research.Expanded", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "Raw 7E0/221113 byte 0"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "111F"}, "freq": 60, "filter": { "years": [2014] },
+  "signals": [
+    {"id": "CROSSTREK_PROBE_7E0_22111F_B0", "path": "ECU.Research.Expanded", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "Raw 7E0/22111F byte 0"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1149"}, "freq": 1,
   "signals": [
@@ -747,6 +943,10 @@
   "signals": [
     {"id": "CROSSTREK_DBG_7E0_304A_B0", "path": "ECU.Research.R38", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "Raw 7E0/22304A byte 0"}
   ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "3050"}, "freq": 60, "filter": { "years": [2014] },
+  "signals": [
+    {"id": "CROSSTREK_PROBE_7E0_223050_B0", "path": "ECU.Research.Expanded", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "Raw 7E0/223050 byte 0"}
+  ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "3062"}, "freq": 30, "filter": { "years": [2014] },
   "signals": [
     {"id": "CROSSTREK_DBG_7E0_3062_B0", "path": "ECU.Research.R38", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "Raw 7E0/223062 byte 0"}
@@ -755,9 +955,41 @@
   "signals": [
     {"id": "CROSSTREK_DBG_7E0_3068_B0", "path": "ECU.Research.R38", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "Raw 7E0/223068 byte 0"}
   ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "309A"}, "freq": 60, "filter": { "years": [2014] },
+  "signals": [
+    {"id": "CROSSTREK_PROBE_7E0_22309A_B0", "path": "ECU.Research.Expanded", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "Raw 7E0/22309A byte 0"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F100"}, "freq": 120, "filter": { "years": [2014] },
+  "signals": [
+    {"id": "CROSSTREK_PROBE_7E0_22F100_B0", "path": "ECU.Research.Expanded", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "Raw 7E0/22F100 byte 0"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "dbg": true, "cmd": {"22": "F182"}, "freq": 120, "filter": { "years": [2014] },
+  "signals": [
+    {"id": "CROSSTREK_PROBE_7E0_22F182_B0", "path": "ECU.Research.Expanded", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "Raw 7E0/22F182 byte 0"}
+  ]},
+{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "100E"}, "freq": 60, "filter": { "years": [2014] },
+  "signals": [
+    {"id": "CROSSTREK_PROBE_7E1_22100E_B0", "path": "ECU.Research.Expanded", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "Raw 7E1/22100E byte 0"}
+  ]},
 { "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1017"}, "freq": 5, "filter": { "years": [2014] },
   "signals": [
     {"id": "CROSSTREK_CVT_FLUID_T_7E1", "path": "Transmission", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "CVT fluid temperature"}
+  ]},
+{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1018"}, "freq": 60, "filter": { "years": [2014] },
+  "signals": [
+    {"id": "CROSSTREK_PROBE_7E1_221018_B0", "path": "ECU.Research.Expanded", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "Raw 7E1/221018 byte 0"}
+  ]},
+{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1023"}, "freq": 60, "filter": { "years": [2014] },
+  "signals": [
+    {"id": "CROSSTREK_PROBE_7E1_221023_B0", "path": "ECU.Research.Expanded", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "Raw 7E1/221023 byte 0"}
+  ]},
+{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1024"}, "freq": 60, "filter": { "years": [2014] },
+  "signals": [
+    {"id": "CROSSTREK_PROBE_7E1_221024_B0", "path": "ECU.Research.Expanded", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "Raw 7E1/221024 byte 0"}
+  ]},
+{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1025"}, "freq": 60, "filter": { "years": [2014] },
+  "signals": [
+    {"id": "CROSSTREK_PROBE_7E1_221025_B0", "path": "ECU.Research.Expanded", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "Raw 7E1/221025 byte 0"}
   ]},
 { "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1045"}, "freq": 1,
   "signals": [
@@ -770,6 +1002,18 @@
 { "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1067"}, "freq": 0.25,
   "signals": [
     {"id": "CROSSTREK_CVT_TURBINE_RPM", "path": "Transmission", "fmt": { "len": 8, "max": 8160, "mul": 32, "unit": "rpm" }, "name": "Turbine speed"}
+  ]},
+{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "10D0"}, "freq": 60, "filter": { "years": [2014] },
+  "signals": [
+    {"id": "CROSSTREK_PROBE_7E1_2210D0_B0", "path": "ECU.Research.Expanded", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "Raw 7E1/2210D0 byte 0"}
+  ]},
+{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "10DA"}, "freq": 60, "filter": { "years": [2014] },
+  "signals": [
+    {"id": "CROSSTREK_PROBE_7E1_2210DA_B0", "path": "ECU.Research.Expanded", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "Raw 7E1/2210DA byte 0"}
+  ]},
+{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "10F8"}, "freq": 60, "filter": { "years": [2014] },
+  "signals": [
+    {"id": "CROSSTREK_PROBE_7E1_2210F8_B0", "path": "ECU.Research.Expanded", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "Raw 7E1/2210F8 byte 0"}
   ]},
 { "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "11CB"}, "freq": 0.25,
   "signals": [
@@ -790,6 +1034,42 @@
 { "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "30F8"}, "freq": 1, "filter": { "years": [2014] },
   "signals": [
     {"id": "CROSSTREK_CVT_RATIO_TGT", "path": "Transmission", "fmt": { "len": 16, "max": 257, "div": 255, "unit": "scalar" }, "name": "CVT gear ratio, target"}
+  ]},
+{ "hdr": "7E1", "rax": "7E9", "fcm1": true, "dbg": true, "cmd": {"22": "F182"}, "freq": 120, "filter": { "years": [2014] },
+  "signals": [
+    {"id": "CROSSTREK_PROBE_7E1_22F182_B0", "path": "ECU.Research.Expanded", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "Raw 7E1/22F182 byte 0"}
+  ]},
+{ "hdr": "7E2", "rax": "7EA", "dbg": true, "cmd": {"22": "0021"}, "freq": 120, "filter": { "years": [2014] },
+  "signals": [
+    {"id": "CROSSTREK_PROBE_7E2_220021_B0", "path": "ECU.Research.Expanded", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "Raw 7E2/220021 byte 0"}
+  ]},
+{ "hdr": "7E2", "rax": "7EA", "dbg": true, "cmd": {"22": "0023"}, "freq": 120, "filter": { "years": [2014] },
+  "signals": [
+    {"id": "CROSSTREK_PROBE_7E2_220023_B0", "path": "ECU.Research.Expanded", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "Raw 7E2/220023 byte 0"}
+  ]},
+{ "hdr": "7E2", "rax": "7EA", "dbg": true, "cmd": {"22": "0024"}, "freq": 120, "filter": { "years": [2014] },
+  "signals": [
+    {"id": "CROSSTREK_PROBE_7E2_220024_B0", "path": "ECU.Research.Expanded", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "Raw 7E2/220024 byte 0"}
+  ]},
+{ "hdr": "7E2", "rax": "7EA", "dbg": true, "cmd": {"22": "002D"}, "freq": 120, "filter": { "years": [2014] },
+  "signals": [
+    {"id": "CROSSTREK_PROBE_7E2_22002D_B0", "path": "ECU.Research.Expanded", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "Raw 7E2/22002D byte 0"}
+  ]},
+{ "hdr": "7E2", "rax": "7EA", "dbg": true, "cmd": {"22": "00D0"}, "freq": 120, "filter": { "years": [2014] },
+  "signals": [
+    {"id": "CROSSTREK_PROBE_7E2_2200D0_B0", "path": "ECU.Research.Expanded", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "Raw 7E2/2200D0 byte 0"}
+  ]},
+{ "hdr": "7E2", "rax": "7EA", "dbg": true, "cmd": {"22": "00D1"}, "freq": 120, "filter": { "years": [2014] },
+  "signals": [
+    {"id": "CROSSTREK_PROBE_7E2_2200D1_B0", "path": "ECU.Research.Expanded", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "Raw 7E2/2200D1 byte 0"}
+  ]},
+{ "hdr": "7E2", "rax": "7EA", "dbg": true, "cmd": {"22": "00D2"}, "freq": 120, "filter": { "years": [2014] },
+  "signals": [
+    {"id": "CROSSTREK_PROBE_7E2_2200D2_B0", "path": "ECU.Research.Expanded", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "Raw 7E2/2200D2 byte 0"}
+  ]},
+{ "hdr": "7E2", "rax": "7EA", "dbg": true, "cmd": {"22": "00D3"}, "freq": 120, "filter": { "years": [2014] },
+  "signals": [
+    {"id": "CROSSTREK_PROBE_7E2_2200D3_B0", "path": "ECU.Research.Expanded", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "Raw 7E2/2200D3 byte 0"}
   ]}
 ]
 }
