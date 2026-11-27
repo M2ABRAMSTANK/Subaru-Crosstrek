@@ -1,0 +1,32 @@
+command_id: 7E0.7E8.22101E
+test_cases:
+- expected_values:
+    CROSSTREK_TRIP_CNT: 3471
+  response: |-
+    7E8100962101E0D8F00
+    7E821000EA500000000
+- expected_values:
+    CROSSTREK_TRIP_CNT: 3473
+  response: |-
+    7E8100962101E0D9100
+    7E821000FAF00000000
+- expected_values:
+    CROSSTREK_TRIP_CNT: 3938
+  response: |-
+    7E8100962101E0F6200
+    7E82100020400000000
+- expected_values:
+    CROSSTREK_TRIP_CNT: 3940
+  response: |-
+    7E8100962101E0F6400
+    7E82100048D00000000
+- expected_values:
+    CROSSTREK_TRIP_CNT: 3942
+  response: |-
+    7E8100962101E0F6600
+    7E8210001E300000000
+- expected_values:
+    CROSSTREK_TRIP_CNT: 3953
+  response: |-
+    7E8100962101E0F7100
+    7E82100068E00000000

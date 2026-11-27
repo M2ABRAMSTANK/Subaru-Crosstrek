@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22128B
+test_cases:
+- expected_values:
+    CROSSTREK_IDLE_SPD_CTRL: -0.24
+  response: 7E80562128B7518
+- expected_values:
+    CROSSTREK_IDLE_SPD_CTRL: -0.16
+  response: 7E80562128B7520
+- expected_values:
+    CROSSTREK_IDLE_SPD_CTRL: 0.04
+  response: 7E80562128B7534
+- expected_values:
+    CROSSTREK_IDLE_SPD_CTRL: 0.12
+  response: 7E80562128B753C
