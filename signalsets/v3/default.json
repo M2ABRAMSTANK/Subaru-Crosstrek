@@ -663,6 +663,10 @@
   "signals": [
     {"id": "CROSSTREK_DIRECT_FUEL_INJ_TIME_4", "path": "Fuel", "fmt": { "len": 16, "max": 262.14, "div": 250, "unit": "milliseconds" }, "name": "Direct fuel injection time 4"}
   ]},
+{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1017"}, "freq": 5, "filter": { "years": [2014] },
+  "signals": [
+    {"id": "CROSSTREK_CVT_FLUID_T_7E1", "path": "Transmission", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "CVT fluid temperature"}
+  ]},
 { "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1045"}, "freq": 1,
   "signals": [
     {"id": "CROSSTREK_CVT_LOCKUP_DUTY", "path": "Transmission", "fmt": { "len": 8, "max": 127.5, "div": 2, "unit": "percent" }, "name": "Torque converter lock-up duty"}
@@ -678,6 +682,22 @@
 { "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "11CB"}, "freq": 0.25,
   "signals": [
     {"id": "CROSSTREK_TURBINE_REVOLUTION", "path": "Movement", "fmt": { "len": 16, "max": 2097120, "mul": 32, "unit": "rpm" }, "name": "Turbine revolution speed"}
+  ]},
+{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "300E"}, "freq": 1, "filter": { "years": [2014] },
+  "signals": [
+    {"id": "CROSSTREK_CVT_PRI_PULLEY_RPM", "path": "Transmission", "fmt": { "len": 16, "max": 65535, "unit": "rpm" }, "name": "CVT primary pulley speed"}
+  ]},
+{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "30D0"}, "freq": 1, "filter": { "years": [2014] },
+  "signals": [
+    {"id": "CROSSTREK_CVT_SEC_PULLEY_RPM", "path": "Transmission", "fmt": { "len": 16, "max": 65535, "unit": "rpm" }, "name": "CVT secondary pulley speed"}
+  ]},
+{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "30DA"}, "freq": 1, "filter": { "years": [2014] },
+  "signals": [
+    {"id": "CROSSTREK_CVT_RATIO", "path": "Transmission", "fmt": { "len": 16, "max": 257, "div": 255, "unit": "scalar" }, "name": "CVT gear ratio, actual"}
+  ]},
+{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "30F8"}, "freq": 1, "filter": { "years": [2014] },
+  "signals": [
+    {"id": "CROSSTREK_CVT_RATIO_TGT", "path": "Transmission", "fmt": { "len": 16, "max": 257, "div": 255, "unit": "scalar" }, "name": "CVT gear ratio, target"}
   ]}
 ]
 }
